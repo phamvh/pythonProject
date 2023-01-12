@@ -20,7 +20,7 @@ class Solution:
         We can get these nodes throughjust one round of travel. It is easy to get the first node (k from left).
         To get the second node (k from the right): after traveling the first k node, we assume that the current node is the end,
         then the head would be the k node from the right. So each time we advance curr, we advance head as well. When
-        we reach the end, then the head is the one k node from the right.!
+        we reach the end, then the head is the one k node from the right.!!!!
         """
         first, first_prev, second, second_prev = None, None, None, None
         cur = head
