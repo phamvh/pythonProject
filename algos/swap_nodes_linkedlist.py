@@ -68,7 +68,7 @@ class Solution:
                 tmp = first.next
                 first.next = second
                 second.next = tmp
-            return dummy_head.next
+            return dummy_head.next # Note: do not return the dummy here
         else:
             return head
 
