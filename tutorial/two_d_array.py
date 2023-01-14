@@ -25,9 +25,9 @@ if __name__ == '__main__':
     ## traditional code. use type for clarity
     arr: list[list[int]] = []
     for i in range(row):
-        column: list[int] = []
+        new_row: list[int] = []
         for j in range(col):
-            column.append(0)
-        arr.append(column)
+            new_row.append(0)
+        arr.append(new_row)
     print(arr)
 

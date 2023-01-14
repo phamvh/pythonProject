@@ -11,7 +11,7 @@ if __name__ == '__main__':
     lis.append(4) # add a element
     print(lis.pop())  # 4: the last added one got popped
 
-    queue = deque()
+    queue: deque[int] = deque()
     queue.append(1)
     queue.append(2)
     queue.appendleft(0)
