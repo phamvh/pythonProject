@@ -28,6 +28,10 @@ if __name__ == '__main__':
     print(s.isnumeric())
     print(s.split(" ")) # return a list of subs seperated by a space char
 
+    s1 = "123456123"
+    s1 = s1.strip("123") # strip() trims spaces from both ends. If a string is given as input, then strip that string instead.
+    assert s1 == "456"
+
     s = "0123456789"
     print("0" in s)  # True
     print("234" in s)  # True as substring

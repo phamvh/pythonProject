@@ -76,3 +76,9 @@ if __name__ == '__main__':
     dict1.update({"apple" : "Tim Cook", "tesla" : "Elon Musk", 0 : "ZERO"})  # "ZERO" will be new value instead of "zero"
     print(dict1) # {0: 'ZERO', 'three': 3, 'apple': 'Tim Cook', 'tesla': 'Elon Musk'}
 
+    apples = [k for k in dict1 if k == "apple"]
+    print(apples) # ['apple']
+
+    apple_values = [v for k,v in dict1.items() if k == "apple"]
+    print(apple_values) # ['Tim Cook']
+
