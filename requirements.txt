@@ -1,3 +1,10 @@
+# To generate this file from an existing project, go into the dir of the project and activate the virtual env.
+# A simply way to do that is, use the terminal of pycharm and you are automatically in the virtual env.
+# Then run:
+#      `pip3 freeze > requirements.txt`
+#
+# Similarly, if you want to install all modules listed in the requirements.txt, run:
+#      `pip3 install -r requirements.txt`
 attrs==22.2.0
 contourpy==1.0.7
 cycler==0.11.0
